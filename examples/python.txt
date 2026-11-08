@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/app/main.py", line 10, in <module>
+    run()
+  File "/app/main.py", line 7, in run
+    process(data["id"])
+  File "/app/worker.py", line 22, in process
+    return cache[key]
+KeyError: 'user:4821'

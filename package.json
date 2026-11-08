@@ -1,0 +1,27 @@
+{
+  "name": "stacktrace-to-issue",
+  "version": "1.0.0",
+  "description": "Turn a raw stack trace into a ready-to-paste GitHub issue draft - no more pasting errors into ChatGPT by hand.",
+  "license": "MIT",
+  "bin": {
+    "stacktrace-to-issue": "bin/stacktrace-to-issue.js"
+  },
+  "main": "bin/stacktrace-to-issue.js",
+  "engines": {
+    "node": ">=14"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/us702/stacktrace-to-issue.git"
+  },
+  "keywords": [
+    "cli",
+    "stack-trace",
+    "github-issue",
+    "debugging",
+    "error-report"
+  ],
+  "files": [
+    "bin"
+  ]
+}

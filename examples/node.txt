@@ -1,0 +1,6 @@
+TypeError: Cannot read properties of undefined (reading 'name')
+    at formatUser (/app/src/users.js:42:18)
+    at processRequest (/app/src/handlers/userHandler.js:17:22)
+    at /app/src/server.js:88:5
+    at Layer.handle [as handle_request] (/app/node_modules/express/lib/router/layer.js:95:5)
+    at next (/app/node_modules/express/lib/router/route.js:144:13)

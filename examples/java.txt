@@ -1,0 +1,4 @@
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "String.length()" because "name" is null
+	at com.example.app.UserService.validate(UserService.java:34)
+	at com.example.app.UserService.save(UserService.java:19)
+	at com.example.app.Main.main(Main.java:11)
